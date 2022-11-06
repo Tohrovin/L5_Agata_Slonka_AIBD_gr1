@@ -1,0 +1,9 @@
+# Laboratorium 5 - TIER protocol i tidy data
+
+Original data tb.csv is available in /OriginalData folder. It contains information about tuberculosis in diffenet patient groups. The table codes inforamtion about gender and age at the same time. The data was collected in span of many years in great number of countries.
+
+- /AnalysisData/tb_org.csv - file contains information from tb.csv. Headers of file are:
+  - iso2 - string, country name coded in ISO alpha 2.
+  - year - int, a year in which the data was taken.
+  - new_sp - int, all new cases 
+  - 20 headers coded with "new_sp_{f/m}age" - int, new cases divided by age and sex
